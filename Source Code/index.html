@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Image Carousel</title>
+    <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+    <div class="carousel-container">
+        <div class="carousel-slides">
+            <!-- Slide 1 -->
+            <div class="slide">
+                <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/59ca335e-d2d0-4e02-bced-638d15824e1c.png" alt="Modern city skyline at golden hour with skyscrapers and warm sunlight reflecting off glass buildings">
+                <div class="slide-content">
+                    <h2>Urban Exploration</h2>
+                    <p>Discover the vibrant energy of modern city life</p>
+                </div>
+            </div>
+
+            <!-- Slide 2 -->
+            <div class="slide">
+                <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/f88e0266-6c40-4e93-9b40-6d6fd0fa4f30.png" alt="Serene mountain landscape with snow-capped peaks and evergreen trees under a clear blue sky">
+                <div class="slide-content">
+                    <h2>Nature Getaway</h2>
+                    <p>Reconnect with the breathtaking beauty of nature</p>
+                </div>
+            </div>
+
+            <!-- Slide 3 -->
+            <div class="slide">
+                <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/4044c0e8-22cd-4cf5-b970-b11d06e3e9bf.png" alt="Tropical beach at sunset with palm trees, turquoise water and golden sand">
+                <div class="slide-content">
+                    <h2>Beach Paradise</h2>
+                    <p>Relax and unwind on the world's most beautiful shores</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Navigation buttons -->
+        <div class="carousel-nav">
+            <button class="nav-button prev" aria-label="Previous slide">❮</button>
+            <button class="nav-button next" aria-label="Next slide">❯</button>
+        </div>
+
+        <!-- Indicators -->
+        <div class="carousel-indicators">
+            <div class="indicator active" data-index="0" aria-label="Go to slide 1"></div>
+            <div class="indicator" data-index="1" aria-label="Go to slide 2"></div>
+            <div class="indicator" data-index="2" aria-label="Go to slide 3"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
